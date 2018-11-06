@@ -1,0 +1,12 @@
+sudo: required
+
+language: ruby
+
+services:
+  - docker
+
+before_install:
+- echo "$PASSWORD" | docker login -u "$USER_NAME" --password-stdin
+
+script:
+- bash push
