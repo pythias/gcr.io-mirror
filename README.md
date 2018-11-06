@@ -5,5 +5,7 @@ gcr.io的镜像
 
 ## Repositories
 
-gcr.io/etcd-development/etcd:v3.3.10
-gcr.io/google_containers/hyperkube:v1.8.5
+### google_containers
+
+- gcr.io/etcd-development/etcd:v3.3.10
+- gcr.io/google_containers/hyperkube:v1.8.5
