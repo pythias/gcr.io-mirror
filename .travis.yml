@@ -6,7 +6,7 @@ services:
   - docker
 
 before_install:
-- echo "$PASSWORD" | docker login -u "$USER_NAME" --password-stdin
+- docker login -u "$USER_NAME" -p "$PASSWORD"
 
 script:
 - bash push
